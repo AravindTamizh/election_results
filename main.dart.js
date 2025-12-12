@@ -28525,7 +28525,7 @@ if(r.$2(a,j)>0){s[b]=j
 b=o}}s[b]=a}}
 A.x0.prototype={
 a_(a){var s=null
-return new A.oL(new A.wf(s),"Flutter Demo",A.Zk(s,A.a_Y(B.K,s,s,B.zK),s),!1,s)}}
+return new A.oL(new A.wf(s),"ETTS Election Results 2025",A.Zk(s,A.a_Y(B.K,s,s,B.zK),s),!1,s)}}
 A.wf.prototype={
 a_(a){var s=null,r=t.w,q=A.d3(a,s,r).w.a.a<800?400:1/0
 r=A.d3(a,s,r).w.a.a<800?B.rZ:B.rY
