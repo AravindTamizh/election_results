@@ -41,11 +41,17 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
-      body: Container(
-        width: double.infinity,
-        height: double.infinity,
-        child: Image.asset("assets/images/election_results.jpg",
-        fit: BoxFit.fill,
+      backgroundColor: Colors.black,
+      body: Center(
+        child: Container(
+          color:Colors.black,
+          width: double.infinity,
+          height:
+          MediaQuery.of(context).size.width<800?400:
+          double.infinity,
+          child: Image.asset("assets/images/election_results.jpg",
+          fit:  MediaQuery.of(context).size.width<800?BoxFit.contain:BoxFit.fill,
+          ),
         ),
       ),
     );
